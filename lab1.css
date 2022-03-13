@@ -1,0 +1,27 @@
+company
+{
+background-color: white;
+width: 100%;
+display: block;
+}
+Employee
+{
+display: block;
+margin-bottom: 30pt;
+margin-left: 0pt;
+}
+Phones{
+    display: block;
+}
+name, Phones ,Street ,BuildingNumber ,Region ,City ,Country
+{
+display:block;
+color: #ff0000;
+font-size: 20pt;
+}
+Address
+{
+color: #00ff00;
+font-size: 20pt;
+display: block;
+}

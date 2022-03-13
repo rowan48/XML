@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<!DOCTYPE company[
+<!ELEMENT company (Employee+)>
+<!ELEMENT Employee (name, Phones, Addresses,Email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT Phones (Phone*)>
+<!ELEMENT Phone (#PCDATA)>
+<!ATTLIST Phone
+          Type (Home|Mobile|Work) #IMPLIED>
+<!ELEMENT Addresses (adress+)>
+<!ELEMENT adress (Street, BuildingNumber, Region, City, Country)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT BuildingNumber (#PCDATA)>
+<!ELEMENT Region (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+
+]>
+<company>
+    <Employee>
+        <name>rowan</name>
+        <Phones>
+            <Phone Type ="Home">5339524</Phone>
+            <Phone Type ="Mobile">5339524</Phone>
+            <Phone  Type ="Work">12345678</Phone>
+        </Phones>
+        <Addresses>
+            <adress>
+                <Street>sidi gaber</Street>
+                <BuildingNumber>10</BuildingNumber>
+                <Region>sidi gaber</Region>
+                <City>Alexandria</City>
+                <Country>Egypt</Country>
+          </adress>
+          <adress>
+            <Street>sidi gaber</Street>
+            <BuildingNumber>10</BuildingNumber>
+            <Region>sidi gaber</Region>
+            <City>Alexandria</City>
+            <Country>Egypt</Country>
+      </adress>
+        </Addresses>
+        <Email>rowanahmedali11@gmail.com</Email>
+    </Employee>
+    <Employee>
+        <name>rowanahmed</name>
+        <Phones>
+           <Phone Type ="Home">5339524</Phone>
+            <Phone Type ="Mobile">5339524</Phone>
+            <Phone  Type ="Work">12345678</Phone>
+        </Phones>
+        <Addresses>
+           <adress>
+                <Street>sidi gaber</Street>
+                <BuildingNumber>10</BuildingNumber>
+                <Region>sidi gaber</Region>
+                <City>Alexandria</City>
+                <Country>Egypt</Country>
+          </adress>
+        </Addresses>
+        <Email>rownahmdali11@gmail.com</Email>
+    </Employee>
+    <Employee>
+        <name>rowanahmed</name>
+        <Phones>
+          <Phone Type ="Home">5339524</Phone>
+            <Phone Type ="Mobile">5339524</Phone>
+            <Phone  Type ="Work">12345678</Phone>
+        </Phones>
+        <Addresses>
+           <adress>
+                <Street>sidi gaber</Street>
+                <BuildingNumber>10</BuildingNumber>
+                <Region>sidi gaber</Region>
+                <City>Alexandria</City>
+                <Country>Egypt</Country>
+          </adress>
+        </Addresses>
+        <Email>rownahmdali11@gmail.com</Email>
+    </Employee>
+ 
+</company>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Library location ="alex" description="description" librarian ="rowan">
+    <books>
+	<book title="XML" author="xyz" ISBN="45678">
+        <preface>preface of the book</preface>
+		<author>
+			<name>
+				<fname>Ahmed</fname>
+				<lname>Aly</lname>
+			</name>
+			<email>aa@Hotmail.com</email>	
+			<mobile>77346545</mobile>
+		</author>
+		<author>
+			<name fname="Asmaa" lname="Mohamed"/>
+		</author>
+		<price currency="L.E">300</price>
+        <parts>
+            <part>
+                <chapters>
+                    <chapter title='chaptertitle'>
+                        <title>
+                            title of the part
+
+                        </title>
+                        <summary>
+                            summary of the chapter
+
+                        </summary>
+                        <content>
+                           <p>content of the part</p> 
+                        </content>
+
+                    </chapter>
+                    <chapter title="chaptertitle1">
+                        <title>
+                            title of the part2
+
+                        </title>
+                        <summary>
+                            summary of the chapter2
+
+                        </summary>
+                        <content>
+                            <p>content of the par2</p> 
+                        </content>
+
+                    </chapter>
+                </chapters>
+            </part>
+            <part>
+                <chapters>
+                    <chapter title="chaptertitle2">
+                        <title>
+                            title of the part3
+
+                        </title>
+                        <summary>
+                            summary of the chapter3
+
+                        </summary>
+                        <content>
+                            <p>content of the part3</p> 
+                        </content>
+
+                    </chapter>
+                    <chapter title ="chaptertitle3">
+                        <title>
+                            title of the part3
+
+                        </title>
+                        <summary>
+                            summary of the chapter3
+
+                        </summary>
+                        <section>
+                            <content>
+                                <p>content of the part31</p> 
+                             </content>
+                             <content>
+                                <p>content of the part32</p> 
+                             </content>
+                        </section>
+
+
+                    </chapter>
+                </chapters>
+            </part>
+        </parts>
+	</book>
+    <book title="XML2" author="XYZ2" ISBN="44444">
+        <preface>preface of the book</preface>
+		<author>
+			<name>
+				<fname>Ahmed</fname>
+				<lname>Aly</lname>
+			</name>
+			<email>aa@Hotmail.com</email>	
+			<mobile>77346545</mobile>
+		</author>
+		<author>
+			<name fname="Asmaa" lname="Mohamed"/>
+		</author>
+		<price currency="L.E">300</price>
+        <parts>
+            <part>
+                <chapters>
+                    <chapter title='chaptertitle'>
+                        <title>
+                            title of the part
+
+                        </title>
+                        <summary>
+                            summary of the chapter
+
+                        </summary>
+                        <sections>
+                        <content>
+                           <p>content of the part</p> 
+                        </content>
+                        </sections>
+
+                    </chapter>
+                    <chapter title="chaptertitle1">
+                        <title>
+                            title of the part2
+
+                        </title>
+                        <summary>
+                            summary of the chapter2
+
+                        </summary>
+                        <content>
+                            <p>content of the par2</p> 
+                        </content>
+
+                    </chapter>
+                </chapters>
+            </part>
+            <part>
+                <chapters>
+                    <chapter title="chaptertitle2">
+                        <title>
+                            title of the part3
+
+                        </title>
+                        <summary>
+                            summary of the chapter3
+
+                        </summary>
+                        <sections>
+                        <content>
+                            <p>content of the part3</p> 
+                        </content>
+                        </sections>
+
+                    </chapter>
+                    <chapter title ="chaptertitle3">
+                        <title>
+                            title of the part3
+
+                        </title>
+                        <summary>
+                            summary of the chapter3
+
+                        </summary>
+                        <section>
+                            <content>
+                                <p>content of the part31</p> 
+                             </content>
+                             <content>
+                                <p>content of the part32</p> 
+                             </content>
+                        </section>
+
+
+                    </chapter>
+                </chapters>
+            </part>
+        </parts>
+
+    </book>
+</books>
+</Library>
